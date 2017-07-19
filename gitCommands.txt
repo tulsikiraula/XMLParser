@@ -1,0 +1,41 @@
+Git Commands:::::::
+
+echo "# XMLParser" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/tulsikiraula/XMLParser.git
+git push -u origin master
+
+----------------------------------------------Commands-----------------------------------
+
+Initialization of new repository----------
+git init
+
+-----------To add untracked files---------
+git add .
+ 
+------------For Commiting-----------------
+git commit -m "commit message"
+
+-------------For push------------
+git push -u origin master
+
+--------------To display branch-------------
+git branch
+
+-----------To create new branch-------------
+git checkout -b "branch_name"
+
+
+------To add upstream dependency with master for the first time--------
+git push --set-upstream origin "branch_name"
+
+To merge branch to master-----
+checkout master
+git merge "branch to be merged"
+git push -u origin master
+
+
+
+
