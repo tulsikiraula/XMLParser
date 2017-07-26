@@ -12,15 +12,17 @@ git push -u origin master
 Initialization of new repository----------
 git init
 
+
+-------To add to remote directory(location of remote directory) for the first time----------
+git remote add origin https://github.com/tulsikiraula/NestedClass.git
+
+
 -----------To add untracked files---------
 git add .
  
 ------------For Commiting-----------------
 git commit -m "commit message"
 
-
--------To add to remote directory(location of remote directory) for the first time----------
-git remote add origin https://github.com/tulsikiraula/NestedClass.git
 
 -------------For push------------
 git push -u origin master
