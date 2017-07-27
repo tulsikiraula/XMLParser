@@ -43,5 +43,9 @@ git merge "branch to be merged"
 git push -u origin master
 
 
+----git delete command-----
+ git branch -d "branch_Name"
+
+
 
 
