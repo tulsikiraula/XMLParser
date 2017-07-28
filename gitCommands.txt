@@ -57,5 +57,3 @@ git statsh apply @{1} (@ index of git stash)
 
 
 
-
-
