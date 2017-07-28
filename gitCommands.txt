@@ -1,0 +1,61 @@
+Git Commands:::::::
+
+echo "# XMLParser" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/tulsikiraula/XMLParser.git
+git push -u origin master
+
+----------------------------------------------Commands-----------------------------------
+
+Initialization of new repository----------
+git init
+
+
+-------To add to remote directory(location of remote directory) for the first time----------
+git remote add origin https://github.com/tulsikiraula/NestedClass.git
+
+
+-----------To add untracked files---------
+git add .
+ 
+------------For Commiting-----------------
+git commit -m "commit message"
+
+
+-------------For push------------
+git push -u origin master
+
+--------------To display branch-------------
+git branch
+
+-----------To create new branch-------------
+git checkout -b "branch_name"
+
+
+------To add upstream dependency with master for the first time--------
+git push --set-upstream origin "branch_name"
+
+To merge branch to master-----
+checkout master
+git merge "branch to be merged"
+git push -u origin master
+
+
+----git delete command-----
+ git branch -d "branch_Name"
+
+---git to stash changes and apply them-----
+git stash save or git stash (both are same)
+git stash apply
+git stash list
+
+---git stash with custom message----
+git stash save "custom message goes here"
+git statsh apply @{1} (@ index of git stash)
+
+
+
+
+
