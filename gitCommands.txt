@@ -43,5 +43,17 @@ git merge "branch to be merged"
 git push -u origin master
 
 
+----git delete command-----
+ git branch -d "branch_Name"
+
+---git to stash changes and apply them-----
+git stash save or git stash (both are same)
+git stash apply
+git stash list
+
+---git stash with custom message----
+git stash save "custom message goes here"
+git statsh apply @{1} (@ index of git stash)
+
 
 
