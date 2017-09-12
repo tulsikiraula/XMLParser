@@ -53,7 +53,7 @@ git stash list
 
 ---git stash with custom message----
 git stash save "custom message goes here"
-git statsh apply @{1} (@ index of git stash)
+git statsh apply stash@{1} (@ index of git stash)
 
 
 
